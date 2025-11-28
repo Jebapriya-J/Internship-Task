@@ -1,0 +1,6 @@
+{
+    "upload_directory": "input",
+    "output_directory": "output",
+    "log_directory": "logs",
+    "icd_pattern": "[A-Z][0-9][0-9](?:\\.[0-9A-Z]{1,4})?"
+}
