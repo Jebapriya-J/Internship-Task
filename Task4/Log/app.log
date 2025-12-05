@@ -1,0 +1,310 @@
+2025-12-04 10:48:18 | INFO | background_process | Line 94 | Task OUTPUT_DIR completed successfully.
+2025-12-04 10:50:01 | INFO | background_process | Line 94 | Task OUTPUT_D completed successfully.
+2025-12-04 11:01:15 | INFO | background_process | Line 94 | Task OUTPUT_DIR completed successfully.
+2025-12-04 11:02:29 | ERROR | background_process | Line 97 | Background task failed: [Errno 13] Permission denied: 'output'
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 91, in background_process
+    with open(output_file, "w", encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'output'
+2025-12-04 11:13:26 | INFO | background_process | Line 93 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 11:41:32 | ERROR | background_process | Line 100 | Background task failed: name 'wrds' is not defined
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 92, in background_process
+    extracted_data = extract_icd_codes(str(pdf_path))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 64, in extract_icd_codes
+    for w in wrds:
+             ^^^^
+NameError: name 'wrds' is not defined
+2025-12-04 11:44:28 | ERROR | background_process | Line 100 | Background task failed: 'tuple' object has no attribute 'upper'
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 92, in background_process
+    extracted_data = extract_icd_codes(str(pdf_path))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 65, in extract_icd_codes
+    if w["text"].upper() == code.upper():
+                            ^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'upper'
+2025-12-04 11:49:00 | ERROR | background_process | Line 101 | Background task failed: 'tuple' object has no attribute 'upper'
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 93, in background_process
+    extracted_data = extract_icd_codes(str(pdf_path))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 61, in extract_icd_codes
+    codes = [c.upper() for c in codes]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 61, in <listcomp>
+    codes = [c.upper() for c in codes]
+             ^^^^^^^
+AttributeError: 'tuple' object has no attribute 'upper'
+2025-12-04 11:53:12 | INFO | background_process | Line 96 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 11:54:09 | ERROR | background_process | Line 99 | Background task failed: empty separator
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 91, in background_process
+    extracted_data = extract_icd_codes(str(pdf_path))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 73, in extract_icd_codes
+    paragraphs = [p.strip() for p in text.split("") if p.strip()]
+                                     ^^^^^^^^^^^^^^
+ValueError: empty separator
+2025-12-04 11:55:13 | INFO | background_process | Line 96 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 11:56:23 | INFO | background_process | Line 96 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 11:58:26 | INFO | background_process | Line 97 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 12:28:01 | INFO | background_process | Line 106 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 12:31:44 | INFO | background_process | Line 93 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 12:34:43 | INFO | background_process | Line 113 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 12:37:16 | ERROR | background_process | Line 116 | Background task failed: name 'paragraph' is not defined
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 108, in background_process
+    extracted_data = extract_icd_codes(str(pdf_path))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 96, in extract_icd_codes
+    "text_paragraph": paragraph
+                      ^^^^^^^^^
+NameError: name 'paragraph' is not defined
+2025-12-04 12:38:05 | INFO | background_process | Line 113 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 12:39:24 | INFO | background_process | Line 111 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 12:41:30 | INFO | background_process | Line 111 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 12:42:14 | INFO | background_process | Line 111 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 12:45:35 | ERROR | background_process | Line 114 | Background task failed: name 'paragraphs' is not defined
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 106, in background_process
+    extracted_data = extract_icd_codes(str(pdf_path))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 94, in extract_icd_codes
+    "text_paragraph": paragraphs
+                      ^^^^^^^^^^
+NameError: name 'paragraphs' is not defined
+2025-12-04 12:46:23 | INFO | background_process | Line 111 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 12:47:18 | INFO | background_process | Line 111 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 12:48:40 | INFO | background_process | Line 111 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 12:54:42 | INFO | background_process | Line 111 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 12:56:03 | INFO | background_process | Line 111 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 12:56:55 | ERROR | background_process | Line 114 | Background task failed: empty separator
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 106, in background_process
+    extracted_data = extract_icd_codes(str(pdf_path))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 89, in extract_icd_codes
+    paragraphs = [p.strip() for p in page_text.split("") if p.strip()]
+                                     ^^^^^^^^^^^^^^^^^^^
+ValueError: empty separator
+2025-12-04 12:57:34 | INFO | background_process | Line 111 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 13:00:22 | INFO | background_process | Line 112 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 13:03:24 | ERROR | background_process | Line 115 | Background task failed: strip expected at most 1 argument, got 2
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 107, in background_process
+    extracted_data = extract_icd_codes(str(pdf_path))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 89, in extract_icd_codes
+    text_paragraph = page_text.strip("\n"," ".strip())
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: strip expected at most 1 argument, got 2
+2025-12-04 13:04:12 | ERROR | background_process | Line 115 | Background task failed: strip expected at most 1 argument, got 2
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 107, in background_process
+    extracted_data = extract_icd_codes(str(pdf_path))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 89, in extract_icd_codes
+    text_paragraph = page_text.strip("\n"," ".strip())
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: strip expected at most 1 argument, got 2
+2025-12-04 13:05:11 | ERROR | background_process | Line 115 | Background task failed: strip expected at most 1 argument, got 2
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 107, in background_process
+    extracted_data = extract_icd_codes(str(pdf_path))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 89, in extract_icd_codes
+    text_paragraph = page_text.strip("\n"," ").strip()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: strip expected at most 1 argument, got 2
+2025-12-04 13:06:01 | INFO | background_process | Line 112 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 13:10:53 | INFO | background_process | Line 112 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 13:11:48 | INFO | background_process | Line 103 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 13:17:49 | INFO | background_process | Line 110 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 13:24:13 | ERROR | background_process | Line 113 | Background task failed: bad character range D-( at position 4
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 105, in background_process
+    extracted_data = extract_icd_codes(str(pdf_path))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 76, in extract_icd_codes
+    norm_code = norm(code)
+                ^^^^^^^^^^
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 70, in norm
+    return re.sub(r"([ICD-(?:10|9)-CM):?\s*\[?([A-Z\d]\d{1,2}(?:\.\d+)?(?:,\s*[\s]*[A-Z\d]\d{1,2}(?:\.\d+)?)*)\]?]", "", s.upper())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\__init__.py", line 185, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\__init__.py", line 294, in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\_compiler.py", line 743, in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\_parser.py", line 982, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\_parser.py", line 457, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\_parser.py", line 865, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\_parser.py", line 457, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\_parser.py", line 614, in _parse
+    raise source.error(msg, len(this) + 1 + len(that))
+re.error: bad character range D-( at position 4
+2025-12-04 13:27:18 | ERROR | background_process | Line 113 | Background task failed: bad character range D-( at position 3
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 105, in background_process
+    extracted_data = extract_icd_codes(str(pdf_path))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 76, in extract_icd_codes
+    norm_code = norm(code)
+                ^^^^^^^^^^
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 70, in norm
+    return re.sub(r"[ICD-(?:10|9)-CM):?\s*\[?([A-Z\d]\d{1,2}(?:\.\d+)?(?:,\s*[\s]*[A-Z\d]\d{1,2}(?:\.\d+)?)*)\]?", "", s.upper())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\__init__.py", line 185, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\__init__.py", line 294, in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\_compiler.py", line 743, in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\_parser.py", line 982, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\_parser.py", line 457, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\_parser.py", line 614, in _parse
+    raise source.error(msg, len(this) + 1 + len(that))
+re.error: bad character range D-( at position 3
+2025-12-04 13:28:55 | INFO | background_process | Line 110 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 14:41:47 | ERROR | background_process | Line 125 | Background task failed: 'tuple' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 117, in background_process
+    extracted_data = extract_icd_codes(str(pdf_path))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 80, in extract_icd_codes
+    icd_codes.append(code.strip().upper())
+                     ^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'strip'
+2025-12-04 14:46:21 | ERROR | background_process | Line 127 | Background task failed: name 'matches' is not defined
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 119, in background_process
+    extracted_data = extract_icd_codes(str(pdf_path))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 80, in extract_icd_codes
+    for icd_type, codes in matches:
+                           ^^^^^^^
+NameError: name 'matches' is not defined
+2025-12-04 14:47:40 | INFO | background_process | Line 124 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 14:55:26 | ERROR | background_process | Line 123 | Background task failed: name 'words' is not defined
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 115, in background_process
+    extracted_data = extract_icd_codes(str(pdf_path))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 90, in extract_icd_codes
+    for w in words:
+             ^^^^^
+NameError: name 'words' is not defined
+2025-12-04 14:56:49 | INFO | background_process | Line 123 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 15:10:36 | INFO | background_process | Line 110 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 15:13:03 | INFO | background_process | Line 122 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-04 15:44:31 | ERROR | data_validation | Line 51 | Error occurred: name 'upload_dir' is not defined
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 46, in data_validation
+    file_path = upload_dir / file.filename
+                ^^^^^^^^^^
+NameError: name 'upload_dir' is not defined
+2025-12-04 15:45:42 | ERROR | upload_pdf | Line 105 | Error occurred: name 'output_dir' is not defined
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 101, in upload_pdf
+    filesd = os.path.join(output_dir, f"bg_{name}.json")
+                          ^^^^^^^^^^
+NameError: name 'output_dir' is not defined
+2025-12-04 16:00:00 | ERROR | extract_coordinates | Line 88 | Error processing PDF: name 'w' is not defined
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 62, in extract_coordinates
+    if w['text'].upper().startswith("ICD-") and "CM:" in w['text'].upper():
+       ^
+NameError: name 'w' is not defined
+2025-12-04 16:14:47 | ERROR | upload_pdf | Line 111 | Error occurred: name 'output_dir' is not defined
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 102, in upload_pdf
+    output_dir.mkdir(parents=True, exist_ok=True)
+    ^^^^^^^^^^
+NameError: name 'output_dir' is not defined
+2025-12-04 17:08:40 | ERROR | extract_coordinates | Line 84 | Error processing PDF: name 're' is not defined
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 50, in extract_coordinates
+    icd10_pattern = re.compile(r'ICD-10-CM:\s*([\w.,\s]+)', re.IGNORECASE)
+                    ^^
+NameError: name 're' is not defined
+2025-12-04 17:12:05 | ERROR | extract_coordinates | Line 84 | Error processing PDF: name 're' is not defined
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 50, in extract_coordinates
+    icd10_pattern = re.compile(r'ICD-10-CM:\s*([\w.,\s]+)', re.IGNORECASE)
+                    ^^
+NameError: name 're' is not defined
+2025-12-04 17:30:50 | ERROR | upload_pdf | Line 124 | Error occurred: name 'extract_coordinates' is not defined
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 119, in upload_pdf
+    bgtask.add_task(extract_coordinates,filesd,file)
+                    ^^^^^^^^^^^^^^^^^^^
+NameError: name 'extract_coordinates' is not defined
+2025-12-04 17:32:59 | ERROR | upload_pdf | Line 124 | Error occurred: name 'icd_coordinates' is not defined
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 119, in upload_pdf
+    bgtask.add_task(icd_coordinates,filesd,file)
+                    ^^^^^^^^^^^^^^^
+NameError: name 'icd_coordinates' is not defined
+2025-12-04 17:35:23 | ERROR | upload_pdf | Line 124 | Error occurred: name 'icd_coordinates' is not defined
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 119, in upload_pdf
+    bgtask.add_task(icd_coordinates,filesd,file)
+                    ^^^^^^^^^^^^^^^
+NameError: name 'icd_coordinates' is not defined
+2025-12-04 17:36:33 | ERROR | upload_pdf | Line 135 | Upload Error: name 'run_icd_extraction_background' is not defined
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 126, in upload_pdf
+    bgtask.add_task(run_icd_extraction_background, str(saved_pdf_path), str(json_output_path))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'run_icd_extraction_background' is not defined
+2025-12-04 17:42:52 | ERROR | run_icd_extraction_background | Line 105 | Background extraction error: name 'extract_icd_with_coordinates' is not defined
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 99, in run_icd_extraction_background
+    result = extract_icd_with_coordinates(pdf_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'extract_icd_with_coordinates' is not defined
+2025-12-05 08:56:01 | ERROR | upload_pdf | Line 120 | Error occurred: name 'extract_icd_codes' is not defined
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 111, in upload_pdf
+    result = extract_icd_codes(pdf_path)
+             ^^^^^^^^^^^^^^^^^
+NameError: name 'extract_icd_codes' is not defined
+2025-12-05 08:56:56 | ERROR | upload_pdf | Line 120 | Error occurred: extract_icd_with_pdfplumber() missing 1 required positional argument: 'config'
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 111, in upload_pdf
+    result = extract_icd_with_pdfplumber(pdf_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: extract_icd_with_pdfplumber() missing 1 required positional argument: 'config'
+2025-12-05 09:17:16 | ERROR | extract_icd_with_pdfplumber | Line 126 | PDF processing error: 'icd10'
+Traceback (most recent call last):
+  File "C:\Users\jebapriya.jayapal\Documents\Internship-Task\Task5.py\Main.py", line 64, in extract_icd_with_pdfplumber
+    icd10_regex = re.compile(config["icd10"], re.IGNORECASE)
+                             ~~~~~~^^^^^^^^^
+KeyError: 'icd10'
+[2025-12-05 09:43:23] ICD extraction complete: input\AI_11_ISC_2 1.pdf
+2025-12-05 09:54:24 | INFO | background_process | Line 108 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-05 09:59:16 | INFO | background_process | Line 114 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-05 10:01:01 | INFO | background_process | Line 108 | Task completed successfully: output\AI_11_ISC_2 1.json
+2025-12-05 10:06:03 | INFO | background_process | Line 122 | Task completed successfully: output\AI_11_ISC_2 1.json
