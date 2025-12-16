@@ -1,0 +1,123 @@
+2025-12-16 10:20:52,697 | INFO | _log | Line 97 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9876
+ * Running on http://172.17.200.196:9876
+2025-12-16 10:20:52,697 | INFO | _log | Line 97 | [33mPress CTRL+C to quit[0m
+2025-12-16 10:20:52,697 | INFO | _log | Line 97 |  * Restarting with stat
+2025-12-16 10:20:53,178 | WARNING | _log | Line 97 |  * Debugger is active!
+2025-12-16 10:20:53,178 | INFO | _log | Line 97 |  * Debugger PIN: 542-580-331
+2025-12-16 10:23:29,826 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:23:29] "[33mPOST /process-pdf/%0A HTTP/1.1[0m" 404 -
+2025-12-16 10:23:46,589 | INFO | _log | Line 97 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9876
+ * Running on http://172.17.200.196:9876
+2025-12-16 10:23:46,589 | INFO | _log | Line 97 | [33mPress CTRL+C to quit[0m
+2025-12-16 10:23:46,589 | INFO | _log | Line 97 |  * Restarting with stat
+2025-12-16 10:23:47,016 | WARNING | _log | Line 97 |  * Debugger is active!
+2025-12-16 10:23:47,016 | INFO | _log | Line 97 |  * Debugger PIN: 542-580-331
+2025-12-16 10:24:34,534 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:24:34] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-16 10:24:34,596 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:24:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-16 10:24:49,304 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:24:49] "[33mGET /process-pdf HTTP/1.1[0m" 404 -
+2025-12-16 10:24:56,147 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:24:56] "[33mPOST /process-pdf/%0A HTTP/1.1[0m" 404 -
+2025-12-16 10:25:27,221 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:25:27] "[33mPOST /process-pdf/%0A HTTP/1.1[0m" 404 -
+2025-12-16 10:25:50,859 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:25:50] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-16 10:27:43,638 | INFO | _log | Line 97 |  * Detected change in 'C:\\Users\\jebapriya.jayapal\\Documents\\Intern\\ocr\\try.py', reloading
+2025-12-16 10:27:43,674 | INFO | _log | Line 97 |  * Restarting with stat
+2025-12-16 10:27:44,140 | WARNING | _log | Line 97 |  * Debugger is active!
+2025-12-16 10:27:44,140 | INFO | _log | Line 97 |  * Debugger PIN: 542-580-331
+2025-12-16 10:27:46,493 | INFO | _log | Line 97 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9876
+ * Running on http://172.17.200.196:9876
+2025-12-16 10:27:46,493 | INFO | _log | Line 97 | [33mPress CTRL+C to quit[0m
+2025-12-16 10:27:46,494 | INFO | _log | Line 97 |  * Restarting with stat
+2025-12-16 10:27:46,944 | WARNING | _log | Line 97 |  * Debugger is active!
+2025-12-16 10:27:46,946 | INFO | _log | Line 97 |  * Debugger PIN: 542-580-331
+2025-12-16 10:27:55,969 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:27:55] "GET / HTTP/1.1" 200 -
+2025-12-16 10:28:23,789 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:28:23] "[33mPOST /process-pdf/%0A HTTP/1.1[0m" 404 -
+2025-12-16 10:28:40,675 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:28:40] "[33mPOST /process-pdf%0A HTTP/1.1[0m" 404 -
+2025-12-16 10:29:09,492 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:29:09] "[33mPOST /process-pdf%0A HTTP/1.1[0m" 404 -
+2025-12-16 10:29:26,951 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:29:26] "[33mPOST /process-pdf%0A HTTP/1.1[0m" 404 -
+2025-12-16 10:29:48,409 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:29:48] "[31m[1mGET /process-pdf HTTP/1.1[0m" 405 -
+2025-12-16 10:29:54,677 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:29:54] "[33mGET /process-pdf/ HTTP/1.1[0m" 404 -
+2025-12-16 10:30:45,017 | INFO | _log | Line 97 |  * Detected change in 'C:\\Users\\jebapriya.jayapal\\Documents\\Intern\\ocr\\try.py', reloading
+2025-12-16 10:30:45,075 | INFO | _log | Line 97 |  * Restarting with stat
+2025-12-16 10:30:45,543 | WARNING | _log | Line 97 |  * Debugger is active!
+2025-12-16 10:30:45,543 | INFO | _log | Line 97 |  * Debugger PIN: 542-580-331
+2025-12-16 10:30:48,152 | INFO | _log | Line 97 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9876
+ * Running on http://172.17.200.196:9876
+2025-12-16 10:30:48,152 | INFO | _log | Line 97 | [33mPress CTRL+C to quit[0m
+2025-12-16 10:30:48,152 | INFO | _log | Line 97 |  * Restarting with stat
+2025-12-16 10:30:48,622 | WARNING | _log | Line 97 |  * Debugger is active!
+2025-12-16 10:30:48,622 | INFO | _log | Line 97 |  * Debugger PIN: 542-580-331
+2025-12-16 10:30:53,300 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:30:53] "[31m[1mGET /process-pdf/ HTTP/1.1[0m" 405 -
+2025-12-16 10:30:58,282 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:30:58] "GET / HTTP/1.1" 200 -
+2025-12-16 10:31:04,383 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:31:04] "[33mPOST /process-pdf%0A HTTP/1.1[0m" 404 -
+2025-12-16 10:31:12,371 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:31:12] "[33mPOST /process-pdf%0A HTTP/1.1[0m" 404 -
+2025-12-16 10:32:30,378 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:32:30] "[33mPOST /process-pdf%0A HTTP/1.1[0m" 404 -
+2025-12-16 10:32:38,490 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:32:38] "[33mPOST /process-pdf%0A HTTP/1.1[0m" 404 -
+2025-12-16 10:32:44,512 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:32:44] "[33mPOST /process-pdf%0A HTTP/1.1[0m" 404 -
+2025-12-16 10:32:47,756 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:32:47] "[33mPOST /process-pdf%0A HTTP/1.1[0m" 404 -
+2025-12-16 10:34:06,245 | INFO | _log | Line 97 | 172.17.200.196 - - [16/Dec/2025 10:34:06] "[33mPOST /%0A HTTP/1.1[0m" 404 -
+2025-12-16 10:34:48,280 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:34:48] "[33mPOST /%0A HTTP/1.1[0m" 404 -
+2025-12-16 10:35:01,508 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:35:01] "[33mPOST /process-pdf%0A HTTP/1.1[0m" 404 -
+2025-12-16 10:35:05,490 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:35:05] "[33mPOST /process-pdf/%0A HTTP/1.1[0m" 404 -
+2025-12-16 10:38:25,526 | INFO | _log | Line 97 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9880
+ * Running on http://172.17.200.196:9880
+2025-12-16 10:38:25,526 | INFO | _log | Line 97 | [33mPress CTRL+C to quit[0m
+2025-12-16 10:38:25,528 | INFO | _log | Line 97 |  * Restarting with stat
+2025-12-16 10:38:25,996 | WARNING | _log | Line 97 |  * Debugger is active!
+2025-12-16 10:38:25,996 | INFO | _log | Line 97 |  * Debugger PIN: 542-580-331
+2025-12-16 10:38:34,673 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:38:34] "GET / HTTP/1.1" 200 -
+2025-12-16 10:38:34,742 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:38:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-16 10:38:36,888 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:38:36] "GET / HTTP/1.1" 200 -
+2025-12-16 10:38:38,945 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:38:38] "GET / HTTP/1.1" 200 -
+2025-12-16 10:40:10,460 | INFO | _log | Line 97 | 127.0.0.1 - - [16/Dec/2025 10:40:10] "POST /process-pdf/ HTTP/1.1" 200 -
+2025-12-16 10:41:56,367 | INFO | _log | Line 97 |  * Detected change in 'C:\\Users\\jebapriya.jayapal\\Documents\\Intern\\ocr\\try.py', reloading
+2025-12-16 10:41:56,428 | INFO | _log | Line 97 |  * Restarting with stat
+2025-12-16 10:42:01,211 | INFO | _log | Line 97 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9880
+ * Running on http://172.17.200.196:9880
+2025-12-16 10:42:01,211 | INFO | _log | Line 97 | [33mPress CTRL+C to quit[0m
+2025-12-16 10:42:28,455 | INFO | _log | Line 97 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9880
+ * Running on http://172.17.200.196:9880
+2025-12-16 10:42:28,455 | INFO | _log | Line 97 | [33mPress CTRL+C to quit[0m
+2025-12-16 10:42:45,677 | INFO | _log | Line 97 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9880
+ * Running on http://172.17.200.196:9880
+2025-12-16 10:42:45,677 | INFO | _log | Line 97 | [33mPress CTRL+C to quit[0m
+2025-12-16 10:47:32,448 | INFO | _log | Line 97 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9880
+ * Running on http://172.17.200.196:9880
+2025-12-16 10:47:32,455 | INFO | _log | Line 97 | [33mPress CTRL+C to quit[0m
+[2025-12-16 10:49:34] File validated: input\1st Amendment.pdf
+[2025-12-16 10:49:34] PDF rotated: output\rotated.pdf
+[2025-12-16 10:49:41] OCR applied: output\output.pdf
+2025-12-16 10:56:13,190 | INFO | _log | Line 97 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9880
+ * Running on http://172.17.200.196:9880
+2025-12-16 10:56:13,190 | INFO | _log | Line 97 | [33mPress CTRL+C to quit[0m
+2025-12-16 10:56:13,190 | INFO | _log | Line 97 |  * Restarting with stat
+2025-12-16 10:56:13,617 | WARNING | _log | Line 97 |  * Debugger is active!
+2025-12-16 10:56:13,620 | INFO | _log | Line 97 |  * Debugger PIN: 542-580-331
+2025-12-16 10:57:15,029 | INFO | _log | Line 97 |  * Detected change in 'C:\\Users\\jebapriya.jayapal\\Documents\\Intern\\ocr\\try.py', reloading
+2025-12-16 10:57:15,079 | INFO | _log | Line 97 |  * Restarting with stat
+[2025-12-16 10:57:39] File validated: input\1st Amendment.pdf
+[2025-12-16 10:57:39] PDF rotated: output\rotated.pdf
+[2025-12-16 10:57:46] OCR applied: output\output.pdf
+[2025-12-16 11:52:42] File validated: input\1st Amendment.pdf
+[2025-12-16 11:52:42] PDF rotated: output\rotated.pdf
+[2025-12-16 11:52:49] OCR applied: output\output.pdf
+[2025-12-16 11:55:12] File validated: input\1st Amendment.pdf
+[2025-12-16 11:55:12] PDF rotated (temporary): output\temp_rotated.pdf
+[2025-12-16 11:55:19] OCR applied: output\output.pdf
